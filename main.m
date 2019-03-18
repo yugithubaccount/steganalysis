@@ -1,5 +1,6 @@
 % 掩码随机生成
 clc,clear all
+%% Here are your input file 
 org = imread('90.bmp');
 % org = double(org);
 org = org(:)';% 进行转置,变成行向量
