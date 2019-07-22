@@ -1,14 +1,14 @@
 clc
 clear all;
 close all;
-path = './dataset/pre/';
+path = './dataset/pre/';% your data path
 n = 128;
 m = n;
-rate_chi = zeros(11,200);% 加快速度
-rate_infoguess = zeros(11,200);% 加快速度
-rate_gpc = zeros(11,200);% 加快速度
-rate_new = zeros(11,200);% 加快速度
-rate_rs = zeros(11,200);% 加快速度
+rate_chi = zeros(11,200);% 
+rate_infoguess = zeros(11,200);% 
+rate_gpc = zeros(11,200);% 
+rate_new = zeros(11,200);% 
+rate_rs = zeros(11,200);% 
 for k=11:1:11
    for i = 1:1:200
       str1 = [path,num2str((k-1)*10),'/',num2str(i),'.bmp']
