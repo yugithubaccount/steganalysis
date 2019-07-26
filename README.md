@@ -9,3 +9,5 @@ Some code for information hiding，include RS,chi_square,IQE,GPC,OEP.wait for me
 
 
 数据集使用的的是网上找的图片，转变成128 × 128的灰度图像，文件名以"1.bmp"这样的方式命名。使用batch.m 文件时注意修改文件路径。 
+
+检测原理见模板2.pdf。
